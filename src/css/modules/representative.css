@@ -1,0 +1,47 @@
+/* Representative block */
+.representative {
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    padding: 0 20px;
+
+    border-top: 3px solid white;
+}
+.representative > h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.representative .gallery {
+    flex: 1;
+}
+
+.rep-card {
+    font-size: smaller;
+}
+
+.rep-card .media__image {
+    margin-right: 12px;
+}
+
+.rep-card .media__body :first-child {
+    margin-bottom: 6px;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.avatar-kurzweil-30x30 {
+    height: 30px;
+    width: 30px;
+    background: center no-repeat url("../../img/Kurzweil30x30.png");
+}
+
+.online-indicator {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-top: 6px;
+    background: center no-repeat url("../../img/Online.svg");
+}

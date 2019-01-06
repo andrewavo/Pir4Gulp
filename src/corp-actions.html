@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pir</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header id="top-panel" class="l-top-panel">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Pir-full-logo.svg" alt="Logo - go to home screen">
+                </a>
+            </div>
+
+            <form name="filter" method="get" class="search">
+                <label for="search-input">
+                    <img src="img/Search.svg" alt="Поиск" class="search__icon">
+                </label>
+                <input id="search-input" type="text" placeholder="Примените фильтр или введите слово">
+            </form>
+
+            <div class="action-button">
+                <button type="button" class="action-button__main">Создать</button>
+                <button type="button" class="action-button__dropdown">
+                    <img src="img/Arrow-down-white.svg" alt="Открыть меню">
+                </button>
+                <ul class="action-button__menu">
+                    <li>Создать</li>
+                    <li>Обновить</li>
+                </ul>
+            </div>
+
+            <div class="user-menu">
+                <a href="#" class="media">
+                    <div class="media__image">
+                        <img src="img/Churchill40x40.png" alt="Уинстон Черчилль">
+                    </div>
+                    <div class="media__body">
+                        <h4>Уинстон Черчилль</h4>
+                        <p>Менеджер</p>
+                    </div>
+                </a>
+                <a href="#" class="user-menu__bell">
+                    <img src="img/Bell-1.svg" alt="Уведомления">
+                </a>
+            </div>
+
+        </header>
+
+        <aside id="left-panel" class="l-left-panel">
+
+            <nav class="main-menu">
+                <div class="main-menu__item">
+                    <a href="#">
+                        <div class="menu-icon icon-corp-action"></div>
+                        <div>Корп. действия</div>
+                    </a>
+                    <a href="#">Собрания</a>
+                </div>
+
+                <div class="main-menu__item">
+                    <a href="#">
+                        <div class="menu-icon icon-voting"></div>
+                        <div>Голосование</div>
+                    </a>
+                </div>
+
+                <div class="main-menu__item">
+                    <a href="#">
+                        <div class="menu-icon icon-issuers"></div>
+                        <div>Эмитенты</div>
+                    </a>
+                    <a href="#">Мои эмитенты</a>
+                </div>
+
+                <div class="main-menu__item">
+                    <a href="#">
+                        <div class="menu-icon icon-documents"></div>
+                        <div>Документы</div>
+                    </a>
+                </div>
+
+                <div class="main-menu__item">
+                    <a href="#">
+                        <div class="menu-icon icon-orders"></div>
+                        <div>Заказы</div>
+                    </a>
+                    <a href="#">Мои заказы</a>
+                </div>
+            </nav>
+
+            <div class="representative">
+                <h4>Представитель эмитента</h4>
+
+                <div class="gallery">
+                    <div class="gallery__body">
+                        <div class="media rep-card">
+                            <div class="media__image avatar-kurzweil-30x30"></div>
+                            <div class="media__body">
+                                <h4>Раймонд Курцвейл</h4>
+                                <p>kurzweil@gmail.com</p>
+                                <p>+1 880 994 7272</p>
+                            </div>
+                            <div class="online-indicator"></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery__controls">
+                        <a href="#" class="gallery__controls-prev">
+                            <img src="img/Left-angle-arrow.svg" alt="Previous">
+                        </a>
+                        <div class="gallery__controls-switcher">
+                            <a href="#"><img src="img/Ellipse.svg" alt=""></a>
+                            <a href="#"><img src="img/Ellipse.svg" alt=""></a>
+                            <a href="#"><img src="img/Ellipse.svg" alt=""></a>
+                        </div>
+                        <a href="#" class="gallery__controls-next">
+                            <img src="img/Right-angle-arrow.svg" alt="Next">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+        <main id="main-area" class="l-main-area">
+
+            <div class="grid">
+                <div class="grid__body">
+                    <div class="grid-header">
+                        Номер
+                        <!--<img src="" alt="Сортировка">-->
+                    </div>
+                    <div class="grid-header">Наименование</div>
+                    <div class="grid-header">Дата</div>
+                    <div class="grid-header">Статус</div>
+                    <div class="grid-header"></div>
+                    <a href="#">000045</a>
+                    <div>Внеочередное ОСА ОАО "Рыбзавод Родники"</div>
+                    <div>15.01.2019</div>
+                    <div class="is-normal-color">Подготовка</div>
+                    <div><img src="" alt=""></div>
+                    <a href="#">000012</a>
+                    <div>Внеочередное ОСА ПАО "ТМЗ"</div>
+                    <div>11.12.2018</div>
+                    <div class="is-danger-color">Открыто</div>
+                    <div><img src="" alt=""></div>
+                    <a href="#">000001</a>
+                    <div>Годовое ОСА ОАО "Рыбзавод Родники"</div>
+                    <div>10.05.2017</div>
+                    <div class="is-inactive-color">Завершено</div>
+                    <div><img src="" alt=""></div>
+                </div>
+                <div class="grid__footer">
+                    <p>Больше нет записей для просмотра</p>
+                </div>
+            </div>
+
+        </main>
+
+        <aside id="right-panel" class="l-right-panel">
+
+            <div class="calendar">
+                <div class="calendar__header">
+                    <a href="#">
+                        <img src="img/Arrow-left.svg" alt="Предыдуший месяц">
+                    </a>
+                    <h4>Декабрь 2018</h4>
+                    <a href="#">
+                        <img src="img/Arrow-right.svg" alt="Следующий месяц">
+                    </a>
+                </div>
+
+                <div class="calendar__body">
+                    <div>Пн</div>
+                    <div>Вт</div>
+                    <div>Ср</div>
+                    <div>Чт</div>
+                    <div>Пт</div>
+                    <div>Сб</div>
+                    <div>Вс</div>
+                    <a href="#" class="is-non-current-month">25</a>
+                    <a href="#" class="is-non-current-month">26</a>
+                    <a href="#" class="is-non-current-month">27</a>
+                    <a href="#" class="is-non-current-month">28</a>
+                    <a href="#" class="is-non-current-month">29</a>
+                    <a href="#" class="is-non-current-month">30</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                    <a href="#">11</a>
+                    <a href="#">12</a>
+                    <a href="#">13</a>
+                    <a href="#">14</a>
+                    <a href="#">15</a>
+                    <a href="#">16</a>
+                    <a href="#">17</a>
+                    <a href="#">18</a>
+                    <a href="#">19</a>
+                    <a href="#">20</a>
+                    <a href="#">21</a>
+                    <a href="#">22</a>
+                    <a href="#">23</a>
+                    <a href="#">24</a>
+                    <a href="#" class="is-today">25</a>
+                    <a href="#">26</a>
+                    <a href="#">27</a>
+                    <a href="#">28</a>
+                    <a href="#">29</a>
+                    <a href="#">30</a>
+                    <a href="#">31</a>
+                    <a href="#" class="is-non-current-month">1</a>
+                    <a href="#" class="is-non-current-month">2</a>
+                    <a href="#" class="is-non-current-month">3</a>
+                    <a href="#" class="is-non-current-month">4</a>
+                    <a href="#" class="is-non-current-month">5</a>
+                </div>
+
+                <div class="calendar__footer">
+                    <a href="#">
+                        <img src="img/List.svg" alt="Список">
+                        <p>Список</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/Day.svg" alt="Список">
+                        <p>День</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/Week.svg" alt="Список">
+                        <p>Неделя</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/Month.svg" alt="Список">
+                        <p>Месяц</p>
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

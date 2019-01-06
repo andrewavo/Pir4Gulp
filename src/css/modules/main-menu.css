@@ -1,0 +1,59 @@
+/* Main menu */
+.main-menu {
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    padding: 40px 20px;
+}
+
+.main-menu__item {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.main-menu__item > a {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+    font-size: smaller;
+    color: white;
+}
+
+.main-menu__item > a:hover {
+    color: #b3d4fc;
+    text-decoration: none;
+}
+
+.main-menu__item > a:first-child {
+    margin-left: 0;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.menu-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+.icon-corp-action {
+    background: center no-repeat url("../../img/Meeting.svg");
+}
+
+.icon-voting {
+    background: center no-repeat url("../../img/Voting.svg");
+}
+
+.icon-issuers {
+    background: center no-repeat url("../../img/Issuers.svg");
+}
+
+.icon-documents {
+    background: center no-repeat url("../../img/Documents.svg");
+}
+
+.icon-orders {
+    background: center no-repeat url("../../img/Orders.svg");
+}

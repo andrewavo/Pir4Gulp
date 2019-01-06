@@ -1,0 +1,45 @@
+/* Action button */
+.action-button {
+    justify-self: end;
+    display: flex;
+    position: relative;
+    height: 40px;
+    background-color: #B9BF0A;
+}
+    .action-button__main {
+        min-width: 120px;
+        padding: 0 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .action-button__dropdown {
+        width: 30px;
+    }
+
+    .action-button__menu {
+        visibility: hidden;
+        position: absolute;
+        top: 43px;
+        right: 0;
+        min-width: 150px;
+        padding: 8px 0;
+        background-color: #FAFAFA;
+        border: 1px solid #CACCA5;
+    }
+        .action-button__menu > li {
+            padding: 3px 20px;
+        }
+
+        .action-button__menu > li:hover {
+            background-color: #E9EAD6;
+            cursor: pointer;
+        }
+
+    .action-button__main:hover, .action-button__dropdown:hover {
+        background-color: #888c07;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+

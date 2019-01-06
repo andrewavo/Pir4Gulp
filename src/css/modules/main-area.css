@@ -1,0 +1,29 @@
+/* Grid */
+.grid__body {
+    display: grid;
+    grid-template-columns: 120px 3fr 1fr 1fr 60px;
+    grid-auto-rows: 40px;
+    grid-row-gap: 1px;
+
+    margin: 40px 40px 20px;
+    border-top: 1px solid #cccccc;
+}
+
+    .grid__body > * {
+        line-height: 40px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .grid__body > div:nth-child(-n+4) {
+        color: #999999;
+    }
+
+    .grid__footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        margin: 0 40px;
+        color: #999999;
+        background-color: #fafafa;
+    }

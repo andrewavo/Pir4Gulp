@@ -1,0 +1,52 @@
+/* Gallery object*/
+.gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+}
+.gallery__body {
+    flex: 1;
+}
+
+.gallery__controls {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.gallery__controls-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+}
+.gallery__controls-switcher > a > img {
+    display: block;
+    margin: 0 4px 6px 4px;
+}
+
+.gallery__controls-prev {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.gallery__controls-next {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.gallery__controls-prev img, .gallery__controls-next img {
+    visibility: hidden;
+}
+
+.gallery__controls-prev:hover img, .gallery__controls-next:hover img {
+    visibility: visible;
+}

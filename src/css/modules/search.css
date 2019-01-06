@@ -1,0 +1,33 @@
+/* Search module */
+.search {
+    display: flex;
+    align-items: center;
+}
+    .search__icon {
+        margin-right: 20px;
+        height: 20px;
+        width: 22px;
+    }
+
+.search form {
+    width: 100%;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    background-color: #fafafa;
+}
+
+.search input::placeholder {
+    font-style: italic;
+    color: #999999;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search input:focus::placeholder {
+    color: transparent;
+}

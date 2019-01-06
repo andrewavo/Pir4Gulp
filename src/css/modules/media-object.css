@@ -1,0 +1,9 @@
+/* Media object*/
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media__body {
+    flex: 1;
+}

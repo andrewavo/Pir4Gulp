@@ -1,0 +1,32 @@
+/* User menu */
+.user-menu {
+    display: flex;
+    justify-content: space-between;
+}
+    .user-menu .media__image {
+        margin-right: 10px;
+        border: 1px solid #fafafa;
+    }
+
+    .user-menu h4 {
+        font-weight: normal;
+    }
+
+    .user-menu p {
+        color: #141414;
+    }
+
+    .user-menu:hover .media__image {
+        border: 1px solid #42A4F4;
+    }
+
+    .user-menu:hover a {
+        text-decoration: none;
+    }
+
+    .user-menu__bell {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+

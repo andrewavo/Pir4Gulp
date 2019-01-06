@@ -1,0 +1,16 @@
+/* Status colors */
+.is-normal-color {
+    color: #5CCC3D;
+}
+
+is-warning-color {
+    color: #F29C24;
+}
+
+.is-danger-color {
+    color: #E62E2E;
+}
+
+.is-inactive-color {
+    color: #999999;
+}

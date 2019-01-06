@@ -1,0 +1,47 @@
+@import "initialize.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+    color: #141414;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #42A4F4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* button reset */
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}

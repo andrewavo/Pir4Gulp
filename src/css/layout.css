@@ -1,0 +1,59 @@
+/* Page structure */
+#wrapper {
+    display: grid;
+    grid-template-columns: 260px 1fr 300px;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas:
+        "top-panel top-panel top-panel"
+        "left-panel main-area right-panel";
+
+    height: 100%;
+}
+
+#top-panel {
+    grid-area: top-panel;
+    background-color: #fafafa;
+}
+
+#left-panel {
+    grid-area: left-panel;
+    background-color: #00467f;
+}
+
+#main-area {
+    grid-area: main-area;
+    background-color: #fff;
+}
+
+#right-panel {
+    grid-area: right-panel;
+    background-color: #fff;
+}
+
+/* Layout of page areas */
+
+.l-top-panel {
+    display: grid;
+    grid-template-columns: 260px 1fr 200px 300px;
+    grid-template-rows: 80px;
+    grid-column-gap: 40px;
+    align-items: center;
+}
+
+.l-left-panel {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.l-main-area {
+
+}
+
+.l-right-panel {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 40px;
+}

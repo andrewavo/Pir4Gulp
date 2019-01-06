@@ -1,0 +1,69 @@
+/* Calendar */
+.calendar {
+    background-color: #fafafa;
+}
+
+.calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.calendar__header img {
+    margin: 0 24px;
+}
+
+.calendar__header h4 {
+    font-weight: normal;
+}
+
+.calendar__body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    padding: 0 16px;
+    font-size: 14px;
+}
+.calendar__body > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    color: #141414;
+}
+
+.calendar__body > a:hover {
+    text-decoration: none;
+    background-color: #b3d4fc;
+    color: #141414;
+}
+
+.calendar__footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 24px;
+}
+.calendar__footer > a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 20px 16px 0;
+}
+.calendar__footer > a > img {
+    margin-right: 6px;
+}
+
+
+.is-non-current-month {
+    color: #cccccc;
+}
+
+.is-today {
+    background-color: #E9F5FF;
+}
+
+.is-current-period {
+
+}
