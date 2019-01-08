@@ -24,9 +24,8 @@
     align-items: flex-end;
     width: 40%;
 }
-.gallery__controls-switcher > a > img {
-    display: block;
-    margin: 0 4px 6px 4px;
+.gallery__controls-switcher > a {
+    margin: 0 4px;
 }
 
 .gallery__controls-prev {
@@ -43,10 +42,10 @@
     width: 30%;
 }
 
-.gallery__controls-prev img, .gallery__controls-next img {
+.gallery__controls-prev *, .gallery__controls-next * {
     visibility: hidden;
 }
 
-.gallery__controls-prev:hover img, .gallery__controls-next:hover img {
+.gallery__controls-prev:hover *, .gallery__controls-next:hover * {
     visibility: visible;
 }
