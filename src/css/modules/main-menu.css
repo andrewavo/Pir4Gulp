@@ -13,25 +13,25 @@
     align-items: flex-start;
     margin-bottom: 40px;
 }
+    .main-menu__item > a {
+        display: flex;
+        align-items: center;
+        margin-left: 42px;
+        font-size: smaller;
+        color: white;
+    }
 
-.main-menu__item > a {
-    display: flex;
-    align-items: center;
-    margin-left: 42px;
-    font-size: smaller;
-    color: white;
-}
+    .main-menu__item > a:hover, .main-menu__item > a:hover * {
+        color: #b3d4fc;
+        fill: #b3d4fc;
+        text-decoration: none;
+    }
 
-.main-menu__item > a:hover {
-    color: #b3d4fc;
-    text-decoration: none;
-}
-
-.main-menu__item > a:first-child {
-    margin-left: 0;
-    text-transform: uppercase;
-    font-size: medium;
-}
+    .main-menu__item > a:first-child {
+        margin-left: 0;
+        text-transform: uppercase;
+        font-size: medium;
+    }
 
 .menu-icon {
     height: 30px;
